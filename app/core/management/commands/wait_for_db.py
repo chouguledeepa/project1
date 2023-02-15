@@ -2,6 +2,15 @@
 Django command to wait for database to be available
 """
 
+######################################
+#topic : How to create custom management command in django
+#######################################
+"""
+how to create custom management commannds?
+how to create command similar to python
+how to create command django-admin start-app
+"""
+########################################
 import time
 from MySQLdb import Error
 from django.db.utils import OperationalError
